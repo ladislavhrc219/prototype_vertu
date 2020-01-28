@@ -1,0 +1,747 @@
+
+* {
+    /* background-color: #fff; */
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    margin-top: -0.11px;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    /* box-sizing: border-box; */
+}
+.header img {
+    float: left;
+    width: 220px;
+    height: 60px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;   
+}
+.header__double-navbar {
+    width: 90vw;
+    float: right;
+    border: 1px solid rgb(231, 225, 225);
+
+}
+.header__topbar {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    position: relative;
+    list-style: none;
+    width: 100%;
+    display: inline-block;
+    text-align: right;
+    border-bottom: 1px solid rgb(231, 225, 225);
+}
+.header__bttm-bar {
+    padding: 12px 0px;
+    font-size: 16px;
+    list-style: none;
+    text-align: center;
+}
+.header__bttm-bar-style {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;  
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+    
+}
+.toplink-space {
+    margin-left: 3rem;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+.toplink-space:hover{
+    background-color: white;
+    /* color: white; */
+}
+.header__nav-menuitems {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+    padding: 0px;
+}
+
+.header__topbar-list {
+    list-style: none;
+    display: inline-block;
+}
+.header__topbar-links {
+    /* list-style: none; */
+    display: inline-block;
+    /* background-color: #fff; */
+
+}
+.header__topbar-links:hover {
+    text-decoration: none;
+}
+
+.header__links--style {
+    text-decoration: none;
+    color: black;
+ 
+}
+.header__links--style:hover {
+    background-color: white;
+    color:black;
+ 
+}
+
+.header__green-phone {
+    color: white;
+    background-color: rgba(49, 177, 77);
+    padding-right: 20px;
+    padding-left: 10px;
+}
+.header__green-phone:hover {
+    background-color: rgba(49, 177, 77);
+    color: white;
+}
+
+
+
+/* ========================================================================== */
+/*  LETTERS TOP BR*/
+/* ========================================================================== */
+.header__a-letter-yellow {
+    color: yellow;
+    background-color: black;
+    border: 1px solid ;
+    padding: 0 3px;
+    margin-left: 5px;
+}
+.header__a-letter-plain{
+    color: rgb(0, 55, 92);
+    background-color: white;
+    border: 1px solid silver;
+    padding: 0 3px;
+    margin-left: 5px;
+}
+.header__a-letter-minus {
+    color: rgb(0, 55, 92);
+    background-color: white;
+    border: 1px solid silver;
+    padding: 0 3px;
+    margin-left: 5px;
+}
+.header__a-letter-plus{
+    color: rgb(0, 55, 92);
+    background-color: white;
+    border: 1px solid silver;
+    padding: 0 3px;
+    margin-left: 5px;
+}
+
+
+/* ========================================================================== */
+/* Navbar */
+/* ========================================================================== */
+.header__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__navbar {
+    width: 100%;
+    background-color: rgb(9, 84, 160);
+    padding-left: 30px;
+    padding-right: 10px;
+    box-sizing: border-box;
+  }
+  .header__navbar-logo {
+    display: inline-block;
+    color: #fff;
+    padding-right: 30px;
+  }
+  .header__navbar-list {
+    display: flex;
+    list-style: none;
+  }
+  /* .nav-links {
+    
+  } */
+  .header__navbar-item a {
+    display: inline-block;
+    padding: 25px 35px;
+    text-decoration: none;
+    color: white;
+}
+  .header__navbar-item:hover {
+    background-color: rgb(9, 84, 160);
+    border-bottom: 3px solid white;    
+}
+
+
+
+/* ========================================================================== */
+/* VERSA CONNECT */
+/* ========================================================================== */
+.versaconnect {
+    width: 100%;
+    height: 300px;
+    background-image: url("https://www.bristolstreetversa.com/custom/51650.jpg");
+    padding: 100px;
+    box-sizing: border-box;
+    height: 500px; 
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+.versaconnect__enquiry {
+    width: 30%;
+    height: 100%;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    box-sizing: border-box;    
+}
+.versaconnect__enquiry-btn {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+   background-color: rgb(4, 109, 245);
+   border-radius: 5px;
+   display: inline-block;
+   font-size: 16px;
+   padding: 10px 5px;
+   width: 100%;
+   position: relative;
+   margin-left:auto;
+   margin-right:auto;
+   display:block;
+   margin-top:3%;
+   margin-bottom:2%;
+}
+.versaconnect__text {
+    line-height: 1.5;
+    background-color: transparent;
+}
+
+
+
+
+/* ========================================================================== */
+/* TABS CONTAINER  */
+/* ========================================================================== */
+
+/* TABS CONTAINER AND DEsIGN */
+
+/* .visible_tab {
+    display: unset;
+} */
+.tabnav__slides :nth-child() {display: none}
+img {vertical-align: middle}
+
+.tabnav__container {
+  max-width: 80%;
+  position: relative;
+  margin: 50px 150px;
+  
+}
+/* The dots/bullets/indicators */
+/* .dot {
+  cursor: pointer;
+  height: 15px;
+  width: 35px;
+  margin: 0 2px;
+  border-radius: 50px;
+  background-color: magenta;
+  display: inline-block;
+  
+} */
+.tabnav__options {
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+    align-content: flex-start;
+    width: 20%;
+    text-align: center;
+    font-size: 16px;
+    background-color: rgb(255, 254, 254);
+    border: 1px solid rgba(1, 50, 100, 0.658); 
+    color: rgb(1, 50, 100, 0.8);
+    padding: 15px;
+    margin:-2px;
+}
+a:hover { 
+    background: rgba(1, 55, 128);
+    color: white;
+    }
+.active .tabnav__options :visited {
+    background-color: green;
+  }
+.tabnav {
+      text-align:center;
+      margin-top: 30px;
+
+}
+
+
+/* ========================================================================== */
+/* SWATHES */
+
+.tabnav__swatch-hidden {
+    display: none;
+}
+/* Swatch show container */
+.tabnav__swatch-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+/* The dots/bullets/indicators */
+.color__selector {
+  cursor: pointer;
+  height: 45px;
+  width: 45px;
+  border: 3px solid whitesmoke;
+  margin: 0 5px;
+  border-radius: 50%;
+  display: inline-block; 
+}
+.color__selector:hover {
+  width: 40px;
+  height: 40px;
+  border: 1px solid white;
+  color: black;
+}
+
+.swatch__metallic-options {
+    text-align: center;
+    border-bottom: 1px solid silver;
+    color: silver;
+    margin: 0 5px;
+    padding-top: 45px;
+    padding-bottom: 20px 0px;
+   
+}
+.swatch__metallic-options:hover {
+    color: black;
+    border-bottom: 1px solid black;
+     background: white; 
+}
+
+.swatch__metallic-hover:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+    /* ====================================================================== */
+    /* SWATCHES */
+    /* ====================================================================== */
+.swatch {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 5px;
+}
+
+.swatch__metallic {
+    margin-left: 5px;
+}
+.swatch__hover:hover {
+    color: black;
+}   
+        /*  */
+    /*  */
+ /*  */
+/* swatch color container */
+/*   */
+.swatch__colors-container {
+    position: relative;
+    /*  space between colors */
+    padding-left: 55px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .swatch__colors-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /*  custom checkbox */
+  .swatch__checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 45px;
+    width: 45px;
+    border: 2px solid beige;
+    border-radius:50px;
+    /* box-shadow: whitesmoke; */
+    box-shadow: 0 0 0 3px  whitesmoke;
+  }
+  
+  /* checkmark/indicator (hidden when not checked) */
+  .swatch__checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* show the checkmark when checked */
+  .swatch__colors-container input:checked ~ .swatch__checkmark:after {
+    display: block; 
+    /* color: black;  */
+  }
+  
+  /* the checkmark/indicator */
+  .swatch__colors-container .swatch__checkmark:after {
+    left: 14px;
+    top: 11px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+
+
+
+/* ========================================================================== */
+/*  INTERIOR TRIMS */
+/* ========================================================================== */
+/* TRIM CARD LIST */
+.interiorcard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.interiorcard__item {
+    cursor: pointer;
+    overflow: hidden;
+    list-style: none;
+    width: 30%;
+    height: auto;
+    margin-top: 20px;
+    line-height: 1.8;
+}
+
+.interiorcard__item-fig {
+    display: block;
+      width: 100%;
+      height: 200px;
+}
+.interiorcard__item-title {
+letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.interiorcard__container {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    padding-right: 1px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+.interiorcard__container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.interiorcard__checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+/* When the checkbox is checked, add a background */
+.interiorcard__container input:checked ~ .interiorcard__checkmark {
+    background-color: grey;
+}
+
+.interiorcard__checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.interiorcard__container input:checked ~ .interiorcard__checkmark:after {
+    display: block;
+}
+  /* the checkmark/indicator */
+.interiorcard__container .interiorcard__checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.interiorcard__interior-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+
+
+
+/* ========================================================================== */
+/*  *//* picturs container */
+/* ========================================================================== */
+.slider {
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+    height: 25%; 
+  }
+.slider__prev-arrow, .slider__next-arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+/* Position the "next button" to the right */
+.slider__next-arrow {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.slider__prev-arrow:hover, .slider__next-arrow:hover {
+    background-color: rgba(211, 214, 236, 0.637);
+}
+.slider__images {    
+    height: 650px;
+}
+  
+
+/* ========================================================================== */
+/* details versa connect */
+/* ========================================================================== */
+.versa-connect__text {
+    box-sizing: border-box;
+    font-size:18px;
+    padding: 2rem 8rem;
+    line-height: 1.5;
+    height: 40%;
+    position: relative;
+}
+.versa-connect__description {
+    margin: 1rem;
+}
+.versa-connect__bttn {
+   text-decoration: none;
+   color: white;
+  background-color: rgb(4, 109, 245);
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px 5px;
+  width: 30%;
+  position: relative;
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+  margin-top:3%;
+  height: 3rem;
+}
+/* ========================================================================== */
+/*  */
+/* ========================================================================== */
+
+.keep__going {
+    width: 100%;
+    font-size: 20px;
+    background-image: url("https://www.bristolstreetversa.com/custom/51651.jpg");
+    padding: 100px;
+    box-sizing: border-box;
+    height: 600px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+.keep__going-info {
+    width: 30%;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.733);
+    padding: 30px;
+    box-sizing: border-box;
+}
+.keep__going-title {
+    color: black;
+    background-color: transparent;
+}
+.keep__going-text {
+    font-size: 16px;
+    line-height: 1.5;
+    padding-top: 20px;
+    background-color: transparent;
+}
+.keep__going-infobtn {
+    text-decoration: none;
+    color: white;
+   background-color: rgb(4, 109, 245);
+   border-radius: 5px;
+   display: inline-block;
+   font-size: 16px;
+   padding: 10px 5px;
+   width: 100%;
+   position: relative;
+   margin-left:auto;
+   margin-right:auto;
+   display:block;
+   margin-top:10%;
+   margin-bottom:10%;
+}
+
+/* ====================================================================== */ 
+/* /* BTOOM BAR */ 
+/* ========================================================================== */
+
+.bttm-navbar {
+    background-color: rgb(54, 55, 59);
+    width: auto;
+    float: left;
+    height: 60%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 5rem;
+    line-height: 2;
+}
+.bttm-navbar__logo {
+    display: flex;
+    flex-direction: column;
+}
+.bttm-navbar__bristol-logo{
+    height: 70px;
+    width: 230px;
+}
+.bttm-navbar__text {
+    background-color: rgb(54, 55, 59);
+    position: relative;
+    margin-right: 5rem;
+    width: 60%;
+}
+.bttm-navbar__text-style {
+ background-color: rgb(54, 55, 59);
+ color: silver;
+ font-size: 14px;
+}
+.bttm-navbar__listitems {
+    list-style: none;
+    background-color: rrgb(54, 55, 59);
+    width: fit-content;
+    margin: 0 1rem;
+}
+.bttm-navbar__list-style {
+    background-color: rgb(54, 55, 59);
+    color: silver;
+    width: 9rem;
+}
+.bttm-navbar__registered-office {
+    position: absolute;
+    float: left;
+    width: auto;
+    margin-top: 10rem;
+    background-color: rgb(54, 55, 59);
+    color: rgba(121, 120, 120, 0.842);
+}
+
+/* ========================================================================= */
+ /* FOOTER */
+ /* ========================================================================= */
+
+.chatbox__footer{
+    position: relative;
+    background-color: rgb(189, 189, 189);
+    padding-bottom: 0.2%;
+    padding-top:3%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.chatbox__form{
+    padding: 20px;
+    float: right;
+    position: relative;
+    margin-right: 2rem;
+    width: 36%;
+    height: 26%;
+    background-color: white;
+    line-height: 1.6;
+}
+.chatbox__input-field {
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: rgb(224, 222, 222);
+    color: black;
+    padding: 10px;
+    width: 0 auto;
+    width: 40%;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+}
+.chatbox__inputs {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    inset:none;
+}
+.chatbox__button {
+    background-color: rgb(3, 66, 148);;
+    font-size: 18px;
+    padding:10px;
+    border-radius: 5px;
+    color: #fff;
+}
+::placeholder{
+    color: black;
+}
